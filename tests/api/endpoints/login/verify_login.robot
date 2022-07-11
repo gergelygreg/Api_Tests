@@ -2,7 +2,7 @@
 Resource    ../../../../testdata/variables/imports.resource
 
 Library    RequestsLibrary
-Library    ../../../../lib/validate_json.py
+Library    ../../../../lib/json_validate_schema.py
 
 *** Test Cases ***
 Verify Login Returns 200

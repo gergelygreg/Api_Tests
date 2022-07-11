@@ -13,6 +13,7 @@ def validate_json_schema(input_json, reference_schema_path):
     except Exception as ex:
         raise Exception(f'Something went terribly wrong! Error: {ex}')
 
+
 def __get_reference_json(reference_schema_path):
     try:
         with open(reference_schema_path) as json_file:
